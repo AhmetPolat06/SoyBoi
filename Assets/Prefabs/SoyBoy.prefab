@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 7580568884253701820}
   m_Layer: 0
   m_Name: SoyBoy
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -94,7 +94,7 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5093990656845458696}
-  m_BodyType: 1
+  m_BodyType: 0
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
@@ -163,5 +163,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 82eecf4fd2ab87a459f9d0de0866971b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  jump: 14
+  airAccel: 3
+  jumpDurationThreshold: 0.25
+  isJumping: 0
+  jumpSpeed: 8
   speed: 14
   accel: 6

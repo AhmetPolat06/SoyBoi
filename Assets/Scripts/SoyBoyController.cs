@@ -178,7 +178,8 @@ public class SoyBoyController : MonoBehaviour
         else
         {
             yVelocity = rb.velocity.y;
-        }
+        }
+
         // 3
         rb.AddForce(new Vector2(((input.x * speed) - rb.velocity.x)
         * acceleration, 0));
